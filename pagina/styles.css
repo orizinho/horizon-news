@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+
+h1 { font-size: 360%;
+    margin-top: 19px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;}
+
+h2 {
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+font-size: 190%;
+margin-top: 10px;}
+
+
+h1,h2 {animation-name: título;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: #471006;}
+   
+    @keyframes título {
+        50% {transform: scaley(1.2);}}
+
+ h1:hover{ animation: title;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
+        animation-timing-function: ease-out;
+        color: #ea8c55;
+        transition: all .4s;}
+
+header hr{border-style: solid;
+border-color:#381d2a;}        
+
+    @keyframes title{
+        50%{transform: skew(20deg);}
+        77% {transform: skew(-20deg);}
+
+        0% { color: #ffacc5; color: #ffbd00 }                                                    
+    
+        25% { color:#ffbd00; color:#ff5400 }
+        
+        50% { color: #ff5400; color:#ff0054 }
+        
+        75% { color: #ff0054; color: #d8572a }
+        
+        100% { color: #d8572a; color:#ffacc5 }
+    }
+
+#hr1 {margin-left: 0px;
+border:groove #381d2a;
+opacity: 0.8;
+border-width: 0.1px;}
+  
+
+#bh { 
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 110px;
+    float: left;
+    display: flex;
+    }       
+#bh img { width: 600px;
+    
+    margin-right: 50px;
+    height: 300px;
+    margin-left: 200px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color:#504645;}       
+#bh p {font-size:130%;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #504645;
+    font-family: 'Noto Sans SC', sans-serif;}
+
+
+#esportes img { width: 500px;
+    height:250px ;}
+#esportes {  margin-top: 30px;
+     display: inline-flex;
+    margin-bottom: 40px;}
+
+
+#p1 {font-size: 18px;}
+#p2 {opacity: 0.6;}
+
+
+#tenis{margin-left: 100px;}
+
+article p {transition: all .4s;}
+article :hover{
+    animation-timing-function: ease-in-out;
+    transform: translate(25px);
+    color: #536068;
+    transition: all .4s;}
+article img {border-style: solid;
+    border-width: 1.5px;
+    border-radius: 8px;
+    border-color:#857e7c;
+    transition: all .4s;}  
+
+
+#mineirao{
+    margin-right: 30px;
+    margin-left: 100px;}
+#mineirao img { margin-left: 20px;}
+
+
+a{text-decoration:none;}
+a:visited {color: #053c5a;}
+
+main a { color:black;}
+
+#poilihr {margin-bottom: 40px;
+    margin-top: 50px;
+    margin-right: 10px;}
+
+#kaliuzada{margin-left: 80px;}
+
+#kaliuzada img {margin-left:59px;}
+
+#randon {margin-left: 80px;}
+
+#política img { width: 300px;
+    height: 150px ;}
+#política { display:flex;
+margin: 10px;}
+
+
+#camara {text-align: center;
+    padding-left: 478px;
+margin-top: 30px;
+display: inline-block;}
+#camara img {width: 550px;
+    height:280px}
+
+
+#crimes {margin: 20px;}  
+#crimes img {width: 650px;
+    height:350px ;}
+#crimes #p1 {font-size: 24px;}
+#crimes #p2 {font-size: 18px;}
+
+#moneyfake {float: right;}
+#moneyfake p {margin-left: 600px;}
+#moneyfake img {margin-left: 630px;
+    margin-top: 50px;}
+
+#procurados {margin-left: 20px;
+    margin-bottom: 80px;}
+#procurados img {margin-top: 50px;}
+#procurados p {margin-right: 500px;}
+
+#vacinafake {margin-left: 20px;}
+#vacinafake p {margin-right: 500px;}
+
+iframe{transform:translate(none);}
+
+#destaques #p1 {font-size: 27px;
+    margin-right: 400px;
+    margin-left: 360px;}    
+#destaques #p2 {font-size: 19px;
+    margin-right: 400px;
+    margin-left: 360px;}
+
+
+#destaques {margin-top: 10px;
+    text-align: center;
+   
+display: inline-block;}
+
+#cachorro{margin-top: 70px;}
+
+    
+#video, #video2, #video3 {  width: 850px;
+    height: 425px;
+    transform: none;
+    border: solid rgb(255, 255, 255); }
+
+#aviao{margin-top: 70px;
+margin-bottom: 100px;}
+
+
+footer p {font-family: 'Libre Baskerville', serif;}   
+footer #p1{font-size: 20px;
+    color: #1282a2;}
+footer #p2 {
+    color: #8a2846;
+    opacity: none;}
+footer{display: flex;}
+footer img {width: 40px;
+height:25px ;}
+
+
+#hrr hr {
+    
+    border-style:solid;
+    color: #381d2a;
+}
+
+#contato{
+    margin-right: 100px;
+    margin-top: 24px;
+}
+#sociais {margin-top: 34px;
+    margin-right:300px ;
+}
+
+
+
+
+
+
+
+
+
+
+  
+    
